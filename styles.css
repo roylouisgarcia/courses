@@ -184,3 +184,38 @@ body {
     text-decoration: none;
     cursor: pointer;
 }
+
+/* Return button styles */
+.return-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+    gap: 10px;
+}
+
+.return-text {
+    font-size: 18px;
+    color: #333;
+    font-weight: 500;
+}
+
+.return-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.return-btn:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+.return-btn-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
