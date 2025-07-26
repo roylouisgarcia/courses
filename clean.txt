@@ -1,0 +1,67 @@
+ibm_course_intro2devops.jpg https://www.coursera.org/account/accomplishments/certificate/H6MW2CUCVXJ6
+ibm_course_intro2cloudcomputing.jpg https://www.coursera.org/account/accomplishments/certificate/8AT2QSH2S7M6
+ibm_course_intro2agiledevelopmentandscrum.jpg https://www.coursera.org/account/accomplishments/certificate/DAYKT5FEQRYD
+ibm_course_softwareengineering.jpg https://www.coursera.org/account/accomplishments/certificate/BXUC6FSU2Z3X
+ibm_course_handsonlinuxcommandsandshellscripting.jpg https://www.coursera.org/account/accomplishments/certificate/ZJDYYWWEFWQR
+ibm_course_gettingstartedwithgitandgithub.jpg https://www.coursera.org/account/accomplishments/certificate/HWCH666PZR49
+ibm_course_pythonfordatascienceaianddev.jpg https://www.coursera.org/account/accomplishments/certificate/XJCDLJMLML6S
+ibm_course_devaiappwithpythonandflask.jpg https://www.coursera.org/account/accomplishments/certificate/WFUW2NK875NE
+ibm_course_containersdockerkubernetesopenshift.jpg https://www.coursera.org/account/accomplishments/certificate/ET64KU8ZN9SS
+ibm_course_applicationdevelopmentusingmicroservicesandserverless.jpg https://www.coursera.org/account/accomplishments/certificate/8FBL4YLNJAL3
+ibm_course_introductiontotestandbehaviordrivendevelopment.jpg https://www.coursera.org/account/accomplishments/certificate/8FBL4YLNJAL3
+ibm_course_continuousintegrationandcontinuousdeliverycicd.jpg https://www.coursera.org/account/accomplishments/certificate/NMVVKRAHYN28
+ibm_course_applicationsecurityfordevelopersanddevopsprofessionals.jpg https://www.coursera.org/account/accomplishments/certificate/4PR9H4W6FNBB
+ibm_course_devopscapstoneproject.jpg https://www.coursera.org/account/accomplishments/certificate/DG264RVMFUTD
+ibm_course_intro2cybersecuritytoolsandcyberattacks.jpg https://www.coursera.org/account/accomplishments/certificate/XY8NAVQY4HL7
+ibm_course_osoverviewadministrationandsecurity.jpg https://www.coursera.org/account/accomplishments/certificate/Z2HULZKA42K5
+ibm_course_cyberseccomplianceframeworkstandardandregulations.jpg https://www.coursera.org/account/accomplishments/certificate/C9JA9ZHGFF5K
+ibm_course_computernetworksandnetworksecurity.jpg https://www.coursera.org/account/accomplishments/certificate/TLUU45U4RCGX
+ibm_course_cyberassessmentcomptiasecurityandcysa.jpg https://www.coursera.org/account/accomplishments/certificate/FD3U8Q4AQTFT
+stanfordonline_course_advancedlearningalgorithms.jpg https://www.coursera.org/account/accomplishments/certificate/QY285JWZ7VQQ
+ibm_course_penetrationtestingthreathuntingandcryptography.jpg https://www.coursera.org/account/accomplishments/certificate/7FNY5RME9XGY
+ibm_course_incidentresponseanddigitalforensics.jpg https://www.coursera.org/account/accomplishments/certificate/MGTY2QUG5BB4
+ibm_course_cybersecuritycasestudiesandcapstoneproject.jpg https://www.coursera.org/account/accomplishments/certificate/KYTPD8W3MT8F
+stanfordonline_course_supervisedlearningregressionandclassification.jpg https://www.coursera.org/account/accomplishments/certificate/R9UASXUTESAN
+stanfordonline_course_unsupervisedlearningrecommendersandreinforcementlearning.jpg
+https://www.coursera.org/account/accomplishments/certificate/WXX5LTGUVZA9
+ibm_course_intro2dataengineering.jpg https://www.coursera.org/account/accomplishments/certificate/NZDZV533X5EP
+ibm_course_rdbms.jpg https://www.coursera.org/account/accomplishments/certificate/9SJBCNBKMCTA
+ibm_course_withhonors_databsesandsqlfordatasciencewithpython.jpg https://www.coursera.org/account/accomplishments/certificate/2VVJ8JW3GSX9
+ibm_course_datawarehousefundamentals.jpg https://www.coursera.org/account/accomplishments/certificate/XA9UWJG7622D
+ibm_course_dba.jpg https://www.coursera.org/account/accomplishments/certificate/4DQ67T4GCC83
+ibm_course_etlanddatapipelineswithshellairflowandkafka.jpg https://www.coursera.org/account/accomplishments/certificate/UTSQYADNUET2
+ibm_course_handsonlinuxcommandsandshellscripting.jpg https://www.coursera.org/account/accomplishments/certificate/ZJDYYWWEFWQR
+imperialcollegelondon_course_mathematicsformachinelearning_linearalgebra.jpg https://www.coursera.org/account/accomplishments/certificate/Q49QTG9BYCPW
+imperialcollegelondon_course_mathematicsformachinelearning_multivariatecalcalculus.jpg https://www.coursera.org/account/accomplishments/certificate/4Z4SW68VZBL2
+imperialcollegelondon_course_mathematicsformachinelearning_pca.jpg https://www.coursera.org/account/accomplishments/certificate/U9W73XNA7TCA
+dukeuniversity_course_pythonandpandas4dataengineering.jpg https://www.coursera.org/account/accomplishments/certificate/AKGPPQ2KR2UH
+dukeuniversity_course_linuxbash4dataengineering.jpg https://www.coursera.org/account/accomplishments/certificate/BGMYWHVA3LAM
+dukeuniversity_course_scriptingwithpythonandsql4dataengineering.jpg https://www.coursera.org/account/accomplishments/certificate/QMWTWMWBD9ET
+dukeuniversity_course_webapplicationsandcommandlinetools4dataengineering.jpg https://www.coursera.org/account/accomplishments/certificate/CZ78HXWHZBFY
+deeplearningai_course_nlp_w_classificationandvectorspaces.jpg https://www.coursera.org/account/accomplishments/certificate/NYJ8ED5WFC6P
+deeplearningai_course_nlp_w_attentionmodels.jpg https://www.coursera.org/account/accomplishments/certificate/TM8SBCSVTMT9
+deeplearningai_course_nlp_w_probabisticmodels.jpg https://www.coursera.org/account/accomplishments/certificate/WQ8WAH6XAZMQ
+deeplearningai_course_nlp_w_sequencemodels.jpg https://www.coursera.org/account/accomplishments/certificate/WE9WZRZKWZEX
+infosec_course_advancedpythonreconnaissance.jpg https://www.coursera.org/account/accomplishments/certificate/DZLNEXPKBNVY
+infosec_course_establishingCnCandFindingCredentials.jpg https://www.coursera.org/account/accomplishments/certificate/KK23UVWSMJ9B
+infosec_course_defensivepython.jpg https://www.coursera.org/account/accomplishments/certificate/UDGM6EYVZUT4
+meta_course_databasestructuresandmanagementwithmysql.jpg https://www.coursera.org/account/accomplishments/records/927KSK866MEF
+meta_course_htmlandcssindepth.jpg https://www.coursera.org/account/accomplishments/records/LW2WW5UWPNMM
+meta_course_intro2backenddev.jpg https://www.coursera.org/account/accomplishments/records/UHMLYGG2SHHR
+meta_course_intro2databases.jpg https://www.coursera.org/account/accomplishments/records/F6PV46G7EKHU
+meta_course_intro2frontenddev.jpg https://www.coursera.org/account/accomplishments/records/UG73ES4RMGDT
+meta_course_intro2androidmobileapplicationdev.jpg https://www.coursera.org/account/accomplishments/verify/JDAKRLPWUQRF
+meta_course_iosmobileapplicationdev.jpg https://www.coursera.org/account/accomplishments/verify/MZS72CSG8MZ8
+meta_course_programmingfundamentalsinkotlin.jpg https://www.coursera.org/account/accomplishments/verify/SMCHRJ2LGXC6
+meta_course_programminginpython.jpg https://www.coursera.org/account/accomplishments/records/45ZZYQP5UPZP
+meta_course_programmingwithjavascript.jpg https://www.coursera.org/account/accomplishments/records/KJ4UQJJZHF53
+meta_course_reactbasics.jpg https://www.coursera.org/account/accomplishments/records/HMNWLG35DZ66
+meta_course_versioncontrol.jpg https://www.coursera.org/account/accomplishments/records/6MH32CPM5S66
+google_course_foundationsofcybersecurity.jpg https://www.coursera.org/account/accomplishments/certificate/BDEVGERL9868
+google_course_intro2gitandgithub.jpg https://www.coursera.org/account/accomplishments/verify/CUTBQFAE5T4A
+google_course_python.jpg https://www.coursera.org/account/accomplishments/records/4XPYSRUUVZCP
+google_course_usingpython2interactwiththeOS.jpg https://www.coursera.org/account/accomplishments/records/D3W7QVPBH7JW
+deeplearningai_course_improvingdeepneuralnetworkshyperparametertuning.jpg https://www.coursera.org/account/accomplishments/records/83JTLNRTHVAL
+
+
+
