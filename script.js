@@ -225,15 +225,22 @@ function centerCurrentThumbnail() {
     if (thumbnails.length > 0 && currentSlideIndex < thumbnails.length) {
         const currentThumbnail = thumbnails[currentSlideIndex];
         const containerWidth = thumbnailContainer.clientWidth;
-        const thumbnailWidth = currentThumbnail.offsetWidth + 10; // Including margin
+        const thumbnailWidth = currentThumbnail.offsetWidth;
+        const marginWidth = 10; // 5px margin on each side
         
         // Calculate the position to center the current thumbnail
         const thumbnailOffsetLeft = currentThumbnail.offsetLeft;
-        const scrollPosition = thumbnailOffsetLeft - (containerWidth / 2) + (thumbnailWidth / 2);
+        const thumbnailCenterPosition = thumbnailOffsetLeft + (thumbnailWidth / 2);
+        const containerCenterPosition = containerWidth / 2;
+        const scrollPosition = thumbnailCenterPosition - containerCenterPosition;
+        
+        // Ensure we don't scroll beyond the boundaries
+        const maxScrollLeft = thumbnailContainer.scrollWidth - containerWidth;
+        const finalScrollPosition = Math.max(0, Math.min(scrollPosition, maxScrollLeft));
         
         // Smooth scroll to center the current thumbnail
         thumbnailContainer.scrollTo({
-            left: scrollPosition,
+            left: finalScrollPosition,
             behavior: 'smooth'
         });
     }
@@ -256,21 +263,23 @@ function updateSlideCounter() {
     document.getElementById('totalSlides').innerText = slides.length.toString();
 }
 
-function goBack() {
-    // Check if there's history to go back to
-    if (window.history.length > 1) {
-        window.history.back();
-    } else {
-        // Fallback: try to go to a common home page
-        window.location.href = 'index.html';
-    }
-}
-
 document.getElementById('nextBtn').onclick = nextSlide;
 document.getElementById('prevBtn').onclick = prevSlide;
-document.getElementById('goBackBtn').onclick = goBack;
+
+// Add window resize event to re-center thumbnail when window size changes
+window.addEventListener('resize', function() {
+    // Debounce the resize event to avoid excessive calls
+    clearTimeout(window.resizeTimeout);
+    window.resizeTimeout = setTimeout(function() {
+        centerCurrentThumbnail();
+    }, 150);
+});
 
 window.onload = function() {
     loadSlides();
     showSlide(currentSlideIndex);
+    // Add a small delay to ensure DOM is fully rendered before initial centering
+    setTimeout(() => {
+        centerCurrentThumbnail();
+    }, 100);
 };

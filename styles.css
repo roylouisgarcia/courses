@@ -90,7 +90,8 @@ body {
 
 .thumbnail-container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: center;
     margin-top: 20px;
     overflow-x: auto;
     overflow-y: hidden;
@@ -98,6 +99,7 @@ body {
     scroll-behavior: smooth;
     white-space: nowrap;
     max-width: 100%;
+    min-height: 70px;
 }
 
 .thumbnail-container::-webkit-scrollbar {
@@ -144,19 +146,6 @@ body {
 .thumb.current-thumb.specialization {
     box-shadow: 0 0 5px #22375f, 0 0 8px #70b0fa;
     border: 1px solid #4b60db;
-}
-
-.controls {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-}
-
-.control-btn {
-    padding: 10px;
-    margin: 0 10px;
-    cursor: pointer;
 }
 
 .modal {
