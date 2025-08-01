@@ -68,6 +68,73 @@ const imageFilenames = [
     "images/deeplearningai_course_neruralnetworksanddeeplearning.jpg"
 ];
 
+// Course titles extracted from certificate images
+const courseTitles = {
+    "images/ibm_course_intro2devops.jpg": "Introduction to DevOps",
+    "images/ibm_course_intro2cloudcomputing.jpg": "Introduction to Cloud Computing",
+    "images/ibm_course_intro2agiledevelopmentandscrum.jpg": "Introduction to Agile Development and Scrum",
+    "images/ibm_course_softwareengineering.jpg": "Introduction to Software Engineering",
+    "images/ibm_course_handsonlinuxcommandsandshellscripting.jpg": "Hands-on Introduction to Linux Commands and Shell Scripting",
+    "images/ibm_course_gettingstartedwithgitandgithub.jpg": "Getting Started with Git and GitHub",
+    "images/ibm_course_pythonfordatascienceaianddev.jpg": "Python for Data Science, AI & Development",
+    "images/ibm_course_devaiappwithpythonandflask.jpg": "Developing AI Applications with Python and Flask",
+    "images/ibm_course_containersdockerkubernetesopenshift.jpg": "Introduction to Containers w/ Docker, Kubernetes & OpenShift",
+    "images/ibm_course_applicationdevelopmentusingmicroservicesandserverless.jpg": "Application Development using Microservices and Serverless",
+    "images/ibm_course_introductiontotestandbehaviordrivendevelopment.jpg": "Introduction to Test and Behavior Driven Development",
+    "images/ibm_course_continuousintegrationandcontinuousdeliverycicd.jpg": "Continuous Integration and Continuous Delivery (CI/CD)",
+    "images/ibm_course_applicationsecurityfordevelopersanddevopsprofessionals.jpg": "Application Security for Developers and DevOps Professionals",
+    "images/ibm_course_devopscapstoneproject.jpg": "DevOps Capstone Project",
+    "images/ibm_course_intro2cybersecuritytoolsandcyberattacks.jpg": "Introduction to Cybersecurity Tools & Cyber Attacks",
+    "images/ibm_course_osoverviewadministrationandsecurity.jpg": "Operating Systems: Overview, Administration, and Security",
+    "images/ibm_course_cyberseccomplianceframeworkstandardandregulations.jpg": "Cybersecurity Compliance Framework & System Administration",
+    "images/ibm_course_computernetworksandnetworksecurity.jpg": "Computer Networks and Network Security",
+    "images/ibm_course_cyberassessmentcomptiasecurityandcysa.jpg": "Cybersecurity Assessment: CompTIA Security+ & CYSA+",
+    "images/stanfordonline_course_advancedlearningalgorithms.jpg": "Advanced Learning Algorithms",
+    "images/ibm_course_penetrationtestingthreathuntingandcryptography.jpg": "Penetration Testing, Incident Response and Forensics",
+    "images/ibm_course_incidentresponseanddigitalforensics.jpg": "Incident Response and Digital Forensics",
+    "images/ibm_course_cybersecuritycasestudiesandcapstoneproject.jpg": "Cybersecurity Case Studies and Capstone Project",
+    "images/stanfordonline_course_supervisedlearningregressionandclassification.jpg": "Supervised Machine Learning: Regression and Classification",
+    "images/stanfordonline_course_unsupervisedlearningrecommendersandreinforcementlearning.jpg": "Unsupervised Learning, Recommenders, Reinforcement Learning",
+    "images/ibm_course_intro2dataengineering.jpg": "Introduction to Data Engineering",
+    "images/ibm_course_rdbms.jpg": "Introduction to Relational Databases (RDBMS)",
+    "images/ibm_course_withhonors_databsesandsqlfordatasciencewithpython.jpg": "Databases and SQL for Data Science with Python",
+    "images/ibm_course_datawarehousefundamentals.jpg": "Introduction to Data Warehousing",
+    "images/ibm_course_dba.jpg": "Relational Database Administration (DBA)",
+    "images/ibm_course_etlanddatapipelineswithshellairflowandkafka.jpg": "ETL and Data Pipelines with Shell, Airflow and Kafka",
+    "images/imperialcollegelondon_course_mathematicsformachinelearning_linearalgebra.jpg": "Mathematics for Machine Learning: Linear Algebra",
+    "images/imperialcollegelondon_course_mathematicsformachinelearning_multivariatecalcalculus.jpg": "Mathematics for Machine Learning: Multivariate Calculus",
+    "images/imperialcollegelondon_course_mathematicsformachinelearning_pca.jpg": "Mathematics for Machine Learning: PCA",
+    "images/dukeuniversity_course_pythonandpandas4dataengineering.jpg": "Python and Pandas for Data Engineering",
+    "images/dukeuniversity_course_linuxbash4dataengineering.jpg": "Linux and Bash for Data Engineering",
+    "images/dukeuniversity_course_scriptingwithpythonandsql4dataengineering.jpg": "Scripting with Python and SQL for Data Engineering",
+    "images/dukeuniversity_course_webapplicationsandcommandlinetools4dataengineering.jpg": "Web Applications and Command-Line Tools for Data Engineering",
+    "images/deeplearningai_course_nlp_w_classificationandvectorspaces.jpg": "Natural Language Processing with Classification and Vector Spaces",
+    "images/deeplearningai_course_nlp_w_attentionmodels.jpg": "Natural Language Processing with Attention Models",
+    "images/deeplearningai_course_nlp_w_probabisticmodels.jpg": "Natural Language Processing with Probabilistic Models",
+    "images/deeplearningai_course_nlp_w_sequencemodels.jpg": "Natural Language Processing with Sequence Models",
+    "images/infosec_course_advancedpythonreconnaissance.jpg": "Advanced Python - Reconnaissance",
+    "images/infosec_course_establishingCnCandFindingCredentials.jpg": "Establishing Command-and-Control and Finding Credentials",
+    "images/infosec_course_defensivepython.jpg": "Defensive Python",
+    "images/meta_course_databasestructuresandmanagementwithmysql.jpg": "Database Structures and Management with MySQL",
+    "images/meta_course_htmlandcssindepth.jpg": "HTML and CSS in Depth",
+    "images/meta_course_intro2backenddev.jpg": "Introduction to Back-End Development",
+    "images/meta_course_intro2databases.jpg": "Introduction to Databases for Back-End Development",
+    "images/meta_course_intro2frontenddev.jpg": "Introduction to Front-End Development",
+    "images/meta_course_intro2androidmobileapplicationdev.jpg": "Introduction to Android Mobile Application Development",
+    "images/meta_course_iosmobileapplicationdev.jpg": "Introduction to iOS Mobile Application Development",
+    "images/meta_course_programmingfundamentalsinkotlin.jpg": "Programming Fundamentals in Kotlin",
+    "images/meta_course_programminginpython.jpg": "Programming in Python",
+    "images/meta_course_programmingwithjavascript.jpg": "Programming with JavaScript",
+    "images/meta_course_reactbasics.jpg": "React Basics",
+    "images/meta_course_versioncontrol.jpg": "Version Control",
+    "images/google_course_foundationsofcybersecurity.jpg": "Foundations of Cybersecurity",
+    "images/google_course_intro2gitandgithub.jpg": "Introduction to Git and GitHub",
+    "images/google_course_python.jpg": "Crash Course on Python",
+    "images/google_course_usingpython2interactwiththeOS.jpg": "Using Python to Interact with the Operating System",
+    "images/deeplearningai_course_improvingdeepneuralnetworkshyperparametertuning.jpg": "Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization",
+    "images/deeplearningai_course_neruralnetworksanddeeplearning.jpg": "Neural Networks and Deep Learning"
+};
+
 // Certificate verification URLs - add the actual URLs for each certificate
 const verificationUrls = {
     "images/ibm_course_intro2devops.jpg": "https://www.coursera.org/account/accomplishments/certificate/H6MW2CUCVXJ6",
@@ -216,6 +283,7 @@ function showSlide(index) {
     centerCurrentThumbnail();
     
     updateSlideCounter();
+    updateCourseTitle();
 }
 
 function centerCurrentThumbnail() {
@@ -261,6 +329,12 @@ function setCurrentSlide(index) {
 function updateSlideCounter() {
     document.getElementById('currentSlide').innerText = currentSlideIndex + 1;
     document.getElementById('totalSlides').innerText = slides.length.toString();
+}
+
+function updateCourseTitle() {
+    const currentImageFilename = imageFilenames[currentSlideIndex];
+    const courseTitle = courseTitles[currentImageFilename] || 'Course Title';
+    document.getElementById('courseTitle').innerText = courseTitle;
 }
 
 document.getElementById('nextBtn').onclick = nextSlide;
